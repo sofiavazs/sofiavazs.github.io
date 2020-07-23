@@ -1,0 +1,118 @@
+body {
+    box-sizing: border-box;
+    font-family: Helvetica, "sans serif";
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+  }
+
+  .main {
+    padding: 50px;
+    width: 60%;
+    margin: 0 auto;
+  }
+
+  .navbar{
+     padding: 10px;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+    -webkit-box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+    -moz-box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
+    -webkit-backface-visibility: hidden;
+     overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #756767;
+    text-align:left;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+  .navbar .name {
+      color:rgb(46, 45, 45);
+      font-family: "Goudy Old Style", Garamond, "Big Caslon", "Times New Roman", serif;
+      font-size: 35px;
+
+
+  }
+  
+  .navbar a:hover {
+    color:rgb(155, 35, 71);
+  }
+  
+  .navbar a.active {
+    border-bottom: 3px solid rgb(155, 35, 71);
+  }
+  
+  /* Line navigation bar 
+  
+  hr.solid {
+    border-top: 1px solid lightgray;
+    margin-top: -10px;
+    box-shadow: 24px 25px 22px -15px rgba(77,75,77,1);
+    padding-top: 0%;
+    padding-bottom: 0%;
+  } */
+
+  h1 {
+    color: rgb(155, 35, 71);
+    text-align: left;
+    font-size: 65px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  h2 {
+      font-size: 25px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      color: rgb(196, 8, 55);
+  }
+
+  h3{
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(150, 136, 136);
+  }
+
+  .card {
+    width:325px;
+    border: 10px solid rgb(3, 3, 3);
+    border-radius: 40px;
+    display: inline-block;
+    padding: 15px;
+    margin: 10px;
+  }
+
+  ul {
+    color: rgb(48, 46, 46);
+    line-height: 30px;
+    margin-top: 50px;
+  }
+  
+  p {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 50px ;
+    color: black;
+  }
+
+  .footer {
+    text-align: center;
+    background-color: rgb(33, 34, 34);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 125px;
+    line-height: 90px;
+}
+
+p {
+ color: lightgrey;
+ font-size: 15px;
+ font-family: 'Times New Roman', Times, serif;
+}
+
+  
