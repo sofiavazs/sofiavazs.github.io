@@ -7,7 +7,7 @@ body {
 
   .main {
     padding: 50px;
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -19,7 +19,7 @@ body {
     -moz-box-shadow: 0px 1px 5px rgba(190, 190, 190, 0.46);
     -webkit-backface-visibility: hidden;
      overflow: hidden;
-}
+   }
 
 .navbar a {
     float: right;
@@ -30,7 +30,7 @@ body {
     text-decoration: none;
     font-size: 13px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+   }
   
   .navbar .name {
       color:rgb(46, 45, 45);
@@ -38,7 +38,7 @@ body {
       font-size: 35px;
 
 
-  }
+   }
   
   .navbar a:hover {
     color:rgb(155, 35, 71);
@@ -58,23 +58,30 @@ body {
     padding-bottom: 0%;
   } */
 
+  .intro p{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align:left;
+    font-weight:200;
+    margin-bottom: 0;
+    margin-top:0;
+    color: black;
+    font-family: "didot";
+   }
+
+
   h1 {
     color: rgb(155, 35, 71);
     text-align: left;
     font-size: 65px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "didot";
   }
   
   h2 {
-      font-size: 25px;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 65px;
+      text-align: left;
+      font-family: "didot";
       color: rgb(196, 8, 55);
-  }
-
-  h3{
-    font-size: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(150, 136, 136);
   }
 
   .card {
@@ -95,7 +102,6 @@ body {
   p {
     font-size: 20px;
     font-weight: 200;
-    margin-bottom: 50px ;
     color: black;
   }
 
@@ -103,16 +109,18 @@ body {
     text-align: center;
     background-color: rgb(33, 34, 34);
     width: 100%;
-    position: absolute;
+    position:relative;
     bottom: 0;
+    left:0;
+    right:0;
     height: 125px;
     line-height: 90px;
-}
+ }
 
-p {
+.footertxt {
  color: lightgrey;
  font-size: 15px;
  font-family: 'Times New Roman', Times, serif;
-}
+ }
 
   
